@@ -24,17 +24,20 @@ nav {
 ul {
 	float: right;
 	padding: 0;
-	margin: 25px 10px 25px 0;
+	margin: 35px 15px 35px 0;
 }
 
 li {
 	display: inline-block;
-	padding: 10px 20px;
-	border: 1px solid #07575B;
-	margin: 0;
-	background: linear-gradient(to bottom, #C4DFE6, #07575B);
-	border-radius: 15px;
 	text-transform: uppercase;
+}
+
+section {
+	background: #C4DFE6;
+}
+
+p {
+	margin-top: 0;
 }
 
 .logo {
@@ -80,4 +83,27 @@ nav > h1 {
 	font-size: 30px;
 	color: #C4DFE6;
 	text-shadow: -2px 0 #003B46, 0 2px #003B46, 2px 0 #003B46, 0 -2px #003B46;
+}
+
+.btn {
+	padding: 10px 20px;
+	border-bottom: 2px solid #07575B;
+	border-top: 2px solid #07575B;
+	margin: 0;
+	background: linear-gradient(to bottom, #C4DFE6, #07575B);
+	font-weight: bold;
+}
+
+.btn-first {
+	border-left: 2px solid #07575B;
+	border-radius: 15px 0 0 15px;
+}
+
+.btn-last {
+	border-right: 2px solid #07575B;
+	border-radius: 0 15px 15px 0;
+}
+
+.btn:hover {
+	background: linear-gradient(to bottom, #07575B, #C4DFE6);
 }
