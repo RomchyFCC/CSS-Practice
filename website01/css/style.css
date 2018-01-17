@@ -32,12 +32,17 @@ li {
 	text-transform: uppercase;
 }
 
-section {
-	background: #C4DFE6;
-}
-
-p {
-	margin-top: 0;
+.articles > section{
+	display: block;
+	float: left;
+	background: linear-gradient(to bottom, #C4DFE6, #66A5AD);
+	color: #003B46;
+	height: 300px;
+	width: 29%;
+	margin: 1%;
+	padding: 1% 1%;
+	border-radius: 10px;
+	box-shadow: -2px 0 #003B46, 0 2px #003B46, 2px 0 #003B46, 0 -2px #003B46;
 }
 
 .logo {
@@ -106,4 +111,35 @@ nav > h1 {
 
 .btn:hover {
 	background: linear-gradient(to bottom, #07575B, #C4DFE6);
+}
+
+.current {
+	padding: 10px 20px;
+	border-bottom: 2px solid #07575B;
+	border-top: 2px solid #07575B;
+	margin: 0;
+	background: linear-gradient(to bottom, #07575B, #C4DFE6);
+	font-weight: bold;
+}
+
+@media screen and (min-width: 1030px) {
+	body{
+		width: 1030px;
+		margin: 0 auto;
+		}
+}
+@media screen and (max-width: 815px) {
+	li:nth-child(2) {
+		display: none;
+	}
+}
+@media screen and (max-width: 686px) {
+	li:nth-child(3) {
+		display: none;
+	}
+}
+@media screen and (max-width: 565px) {
+	li:nth-child(4) {
+		display: none;
+	}
 }
