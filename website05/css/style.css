@@ -1,0 +1,39 @@
+* {
+	font-family: arial;
+	margin: 0;
+}
+
+body {
+	background: #ccc;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.flex-container {
+	background: black;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box {
+	height: 100px;
+	min-width: 320px;
+	flex-grow: 1;
+}
+
+.one {
+	background: red;
+	
+}
+
+.two {
+	background: green;
+}
+
+.three {
+	background: blue;
+}
