@@ -13,16 +13,19 @@ body {
 	margin: 0 auto;
 }
 
+/* We use wrap and wrap-reverse on the container */
+
 .flex-container {
 	background: black;
 	display: flex;
 	flex-wrap: wrap;
 }
 
+/* We use flex-grow, flex: 1; on elements */
+
 .box {
 	height: 100px;
-	min-width: 320px;
-	flex-grow: 1;
+	flex: 1;
 }
 
 .one {
