@@ -1,0 +1,55 @@
+<!-- GRID 1 and 2 -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>GRID 1 &amp; 2</title>
+		<link rel="stylesheet" type="text/css" href="#">
+		<style>
+			body {
+				color: #fff;
+				font-family: serif;
+				text-align: center;
+			}
+
+			#content {
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				grid-template-rows: repeat(3, minmax(200px, auto));
+				/*
+				grid-auto-rows: minmax(200px, auto);
+				*/
+				/*
+				grid-column-gap: 10px;
+				grid-row-gap: 10px;
+				*/
+				grid-gap: 10px;
+				max-width: 1000px;
+				margin: 0 auto;
+			}
+
+			#content div {
+				background: lightblue;
+				padding: 30px;
+			}
+
+			#content div:nth-child(odd) {
+				background: gray;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="content">
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed ultrices libero. Nam ut ipsum vitae felis suscipit sodales. Fusce mattis blandit nisi eget consequat. Ut porttitor aliquet mi sit amet accumsan. Pellentesque a maximus ligula. Donec vestibulum dapibus felis, at ultrices magna convallis accumsan</div>
+			<div>5</div>
+			<div>6</div>
+			<div>7</div>
+			<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed ultrices libero. Nam ut ipsum vitae felis suscipit sodales. Fusce mattis blandit nisi eget consequat. Ut porttitor aliquet mi sit amet accumsan. Pellentesque a maximus ligula. Donec vestibulum dapibus felis, at ultrices magna convallis accumsan</div>
+			<div>9</div>
+		</div>
+	</body>
+</html>

@@ -30,6 +30,15 @@ https://www.youtube.com/watch?v=Y8zMYaD1bz0&list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6U
 
 This is the link to his youtube tutorial.
 
+I also added the GRID tutorial found here:
+
+https://www.youtube.com/watch?v=x7tLPhnA06w&list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY
+
 ---
 
-## 
+## website06
+
+Another solo project using CSS Grid. Fully responsive show of love :3
+
+---
+
