@@ -1,0 +1,33 @@
+body {
+	background: lightblue;
+	text-align: center;
+}
+
+.wrapper{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+img {
+	transform: rotateZ(60deg) translateY(200px) scale(0.8);
+}
+
+.circle {
+	width: 100px;
+	padding: 50px 0;
+	line-height: 0;
+	margin: 60px auto;
+	background: pink;
+	color: white;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: background 1s, transform 2s ease;
+	/* transition: we can specify which elements -> background and for how long -> 1s, we can specify the delay
+	after we spacify the duration of the transition and we can specify how it transitions-> ease-in/out, linear etc.;*/
+}
+
+.circle:hover {
+	background: salmon;
+	transform: rotate(360deg);
+}

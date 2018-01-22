@@ -26,13 +26,7 @@ Another solo project, focusing on CSS Flex. Ideally it would be a responsive sit
 I'm doing a write-along with the tutorial on FLEX from NET NINJA. 
 ~~I'll post the link tomorrow.~~
 
-https://www.youtube.com/watch?v=Y8zMYaD1bz0&list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG
-
-This is the link to his youtube tutorial.
-
-I also added the GRID tutorial found here:
-
-https://www.youtube.com/watch?v=x7tLPhnA06w&list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY
+Links added to the readme file in the blog repository found here: https://github.com/RomchyFCC/blog
 
 ---
 
@@ -51,5 +45,23 @@ Just a quick website thrown together to test the menu button
 ## website08
 
 A bootstrap 4 based project, write along from the Net Ninja tutorial
+
+---
+
+## website09
+
+More projects where I learned about different animation styles css provides.
+
+---
+
+## website10
+
+Another write along from the videos CSS tips and tricks by Net Ninja.
+
+---
+
+## website11
+
+My SASS exercises/project. 
 
 ---
