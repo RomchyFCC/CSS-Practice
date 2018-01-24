@@ -1,0 +1,14 @@
+$green: #bada55;
+$white: #ffffff;
+$black: #000000;
+$darker-green: darken($green, 10%);
+
+@mixin rounded-corners($radius: 5px, $padding: 10px) {
+	border-radius: $radius;
+	padding: $padding;
+}
+
+$mobile: "screen and (min-width: 480px)";
+$tablet: "screen and (min-width: 768px)";
+
+/* @media #{$tablet} { width: 100%}*/

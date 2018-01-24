@@ -1,0 +1,45 @@
+.header {
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1%;
+    .h1 {
+      flex: 1 1 20%;
+
+    }
+  }
+  background: $green;
+  border-bottom: 5px solid $black;
+  color: $white;
+
+  a {
+    color: $white;
+    text-decoration: none;
+    @include rounded-corners(10px, 15px);
+
+    &:hover {
+      color: $black;
+      border-bottom: $white;
+      text-decoration: none;
+      background: $darker-green;
+    }
+  }
+}
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1 1 50%;
+  align-self: center;
+
+
+  ul {
+    display: flex;
+    flex: 1 1 100%;
+    padding-left: 0;
+
+    li {
+      text-align: center;
+      flex: 1 1 200px;
+    }
+  }
+}

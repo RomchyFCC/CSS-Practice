@@ -1,0 +1,23 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(50px, auto);
+  .search {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: right;
+    margin-top: 20px;
+  }
+  h1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+  }
+  .kittens {
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    grid-gap: 10px;
+  }
+}
