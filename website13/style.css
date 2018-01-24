@@ -1,0 +1,79 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+}
+
+main {
+	height: 400px;
+	width: 400px;
+	background: linear-gradient(45deg, blue, lightblue);
+	border: 5px solid white;
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	flex: 1 1 100%;
+	text-align: center;
+	align-self: center;
+}
+
+.days, .challenge {
+	color: white;
+	text-transform: uppercase;
+	margin: 0;
+
+}
+
+.days {
+	font-size: 90px;
+	font-weight: bold;
+	line-height: 66px;
+
+}
+
+.challenge {
+	font-size: 40px;
+	letter-spacing: -5px;
+
+}
+
+.number {
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.one-head, .one-body {
+	height: 30px;
+	width: 120px;
+	background: white;
+	border-radius: 5px;
+	transform: rotateZ(90deg);
+	position: absolute;
+	top: 44px;
+	left: 50px;
+	z-index: 3;
+	box-shadow: 0px -2px 5px blue;
+}
+
+.one-head {
+	transform: rotateZ(-225deg);
+	width: 60px;
+	top: 15px;
+	left: 56px;
+}
+
+.zero {
+	margin-left: -20px;
+	background: transparent;
+	width: 60px;
+	height: 60px;
+	border: 30px solid white;
+	border-radius: 100%;
+	box-shadow: 2px 0px 5px blue;
+}
+.zero-left {
+	margin-left: 50px;
+	z-index: 2;
+}
