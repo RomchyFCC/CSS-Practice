@@ -1,0 +1,80 @@
+@import "_reset";
+@import "_variables";
+@import "_mixins";
+
+#main-nav {
+	background:$dark-blue;
+	ul {
+		width: 100%;
+		@include clearfix;
+	}
+	li {
+		float: left;
+		width: (100% / 6);
+		@include m-q(600px) {
+			width: 100%;
+		}
+	}
+	a{
+		color: $whitish;
+		text-decoration: none;
+		padding: 16px;
+		display: block;
+		text-align:center;
+		&:hover {
+			background: lighten($dark-blue, 10%);
+		}
+	}
+}
+
+section h1 {
+	font-size: $section-heading;
+	color: $dark-blue;
+}
+
+.lead-banner {
+	@include banner;
+	text-align: right;
+}
+
+.lessons-banner {
+	@include banner;
+	li {
+		text-transform: uppercase;
+		font-size: $section-heading - 4;
+		max-width: 500px;
+		margin: 60px 0;
+	}
+}
+
+#services {
+	margin-bottom: 60px;
+	li {
+		float: left;
+		box-sizing: border-box;
+		text-align: center;
+		width: (100% / 3);
+	}
+	img {
+		width: 60%;
+		margin: 20px 20%;
+	}
+	a{
+		text-decoration: none;
+		color: $dark-blue;
+		font-weight: bold;
+		&:hover {
+			color: complement($dark-blue);
+		}
+	}
+	ul{
+		@include clearfix;
+	}
+}
+
+#projects li {
+	@include grid(4, 2%);
+	img{
+		width: 100%;
+	}
+}
