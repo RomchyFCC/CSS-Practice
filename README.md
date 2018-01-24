@@ -2,26 +2,26 @@
 
 ---
 
-## website01
+## exercise01
 
 My first SOLO project in HTML / CSS, gonna try to use what i've learned using nothing but my memory.
 
 ---
 
-## website02, website03
+## exercise02, exercise03
 
 Two of the examples that you have to complete on the Google's course of RWD on Udacity.
 'https://eu.udacity.com/course/responsive-web-design-fundamentals--ud893'
 
 ---
 
-## website04
+## exercise04
 
 Another solo project, focusing on CSS Flex. Ideally it would be a responsive site.
 
 ---
 
-## website05
+## exercise05
 
 I'm doing a write-along with the tutorial on FLEX from NET NINJA. 
 ~~I'll post the link tomorrow.~~
@@ -30,50 +30,56 @@ Links added to the readme file in the blog repository found here: https://github
 
 ---
 
-## website06
+## exercise06
 
 Another solo project using CSS Grid. Fully responsive show of love :3
 
 ---
 
-## website07
+## exercise07
 
 Just a quick website thrown together to test the menu button
 
 ---
 
-## website08
+## exercise08
 
 A bootstrap 4 based project, write along from the Net Ninja tutorial
 
 ---
 
-## website09
+## exercise09
 
 More projects where I learned about different animation styles css provides.
 
 ---
 
-## website10
+## exercise10
 
 Another write along from the videos CSS tips and tricks by Net Ninja.
 
 ---
 
-## website11
+## exercise11
 
 My SASS exercises/project. 
 
 ---
 
-## website12
+## exercise12
 
 Write-along project from youtube.
 
 ---
 
-## website13
+## exercise13
 
 Solo project using CSS
+
+---
+
+## exercise14
+
+Also a solo project, will try to do this one again without javascript
 
 ---
