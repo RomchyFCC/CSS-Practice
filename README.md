@@ -83,3 +83,9 @@ Solo project using CSS
 Also a solo project, will try to do this one again without javascript
 
 ---
+
+## exercise15
+
+Quick refresher on CSS Grid
+
+---
