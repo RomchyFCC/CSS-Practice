@@ -86,6 +86,6 @@ Also a solo project, will try to do this one again without javascript
 
 ## exercise15
 
-Quick refresher on CSS Grid
+Quick refresher on CSS Grid, I haven't done all the exercises, because it became pretty tedious, repeating the same thing over and over again.
 
 ---
