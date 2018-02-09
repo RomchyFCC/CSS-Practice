@@ -89,3 +89,17 @@ Also a solo project, will try to do this one again without javascript
 Quick refresher on CSS Grid, I haven't done all the exercises, because it became pretty tedious, repeating the same thing over and over again.
 
 ---
+
+## exercise16
+
+Solo attempt at the P1xt CSS month challenge - The pyramid.
+Successfull, I just used the clip-part for the shadow.
+
+---
+
+## exercise17
+
+Solo attempt at the P1xt CSS month challenge - Loading.
+Also successfull, fun challenge, much easier than pyramid IMO.
+
+---
